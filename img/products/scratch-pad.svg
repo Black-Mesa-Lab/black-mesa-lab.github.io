@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><title>Scratch Pad</title>
+  <!-- Scratch Pad app icon placeholder: a cat paw on a corrugated scratching pad. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6A04D"/>
+      <stop offset="1" stop-color="#E07B2A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- the pad -->
+  <g transform="rotate(-6 512 560)">
+    <rect x="152" y="300" width="720" height="520" rx="64" fill="#FCF4E4"/>
+    <g stroke="#E9D6B4" stroke-width="14" stroke-linecap="round">
+      <line x1="210" y1="370" x2="814" y2="370"/>
+      <line x1="210" y1="430" x2="814" y2="430"/>
+      <line x1="210" y1="490" x2="814" y2="490"/>
+      <line x1="210" y1="550" x2="814" y2="550"/>
+      <line x1="210" y1="610" x2="814" y2="610"/>
+      <line x1="210" y1="670" x2="814" y2="670"/>
+      <line x1="210" y1="730" x2="814" y2="730"/>
+    </g>
+    <!-- three claw scratches -->
+    <g stroke="#C9692A" stroke-width="16" stroke-linecap="round" opacity="0.55">
+      <path d="M640 360 L740 520"/>
+      <path d="M680 350 L780 500"/>
+      <path d="M600 375 L700 535"/>
+    </g>
+  </g>
+  <!-- the paw -->
+  <g fill="#2B2928" transform="translate(430 580) rotate(-14)">
+    <ellipse cx="0" cy="70" rx="130" ry="110"/>
+    <ellipse cx="-150" cy="-60" rx="52" ry="66"/>
+    <ellipse cx="-62" cy="-130" rx="54" ry="70"/>
+    <ellipse cx="62" cy="-130" rx="54" ry="70"/>
+    <ellipse cx="150" cy="-60" rx="52" ry="66"/>
+  </g>
+  <g fill="#F2A8A8" transform="translate(430 580) rotate(-14)">
+    <ellipse cx="0" cy="82" rx="70" ry="56"/>
+    <ellipse cx="-150" cy="-54" rx="24" ry="30"/>
+    <ellipse cx="-62" cy="-122" rx="24" ry="32"/>
+    <ellipse cx="62" cy="-122" rx="24" ry="32"/>
+    <ellipse cx="150" cy="-54" rx="24" ry="30"/>
+  </g>
+</svg>
